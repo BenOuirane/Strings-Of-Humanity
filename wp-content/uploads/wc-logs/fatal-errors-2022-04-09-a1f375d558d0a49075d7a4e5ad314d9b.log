@@ -1,0 +1,4 @@
+2022-04-09T20:46:38+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 524288 bytes) dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/jetpack/locales.php à la ligne 2252
+
+2022-04-09T21:14:49+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes) dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/wpforms-lite/includes/fields/class-radio.php à la ligne 189
+

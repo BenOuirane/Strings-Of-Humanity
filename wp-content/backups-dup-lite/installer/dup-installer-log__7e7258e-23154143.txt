@@ -1,0 +1,1075 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 10:52:58
+* VERSION: 1.4.4
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.14                                |7.4.28
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2022-04-23 15:41:43
+WP VERSION__________: 5.9.3
+DUP VERSION_________: 1.4.4
+DB__________________: 10.4.24
+DB TABLES___________: 112
+DB ROWS_____________: 12,697
+DB FILE SIZE________: 24.39MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.28 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28
+DOC ROOT____________: "C:/xampp/htdocs/strings-of-humanity"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/strings-of-humanity/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/strings-of-humanity/20220113_stringsofhumanity_[HASH]_20220423154143_archive.zip"
+SIZE________________: 169.34MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/strings-of-humanity/20220113_stringsofhumanity_[HASH]_20220423154143_archive.zip"
+SIZE________________: 169.34MBFile timestamp set to Current: 2022-04-23 22:54:20
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 10:54:20 - RUNTIME: 82.6873 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 10:59:43
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.24 -- Build Server: 10.4.24
+FILE SIZE:	dup-database__[HASH].sql (10MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/strings-of-humanity/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	957
+
+wp_actionscheduler_actions: (46)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (6)
+wp_actionscheduler_logs: (130)
+wp_cmplz_cookiebanners: (1)
+wp_cmplz_cookies: (116)
+wp_cmplz_services: (0)
+wp_commentmeta: (2)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_e_events: (0)
+wp_gla_budget_recommendations: (4230)
+wp_gla_merchant_issues: (0)
+wp_gla_shipping_rates: (0)
+wp_gla_shipping_times: (0)
+wp_links: (0)
+wp_mailpoet_custom_fields: (0)
+wp_mailpoet_dynamic_segment_filters: (0)
+wp_mailpoet_feature_flags: (0)
+wp_mailpoet_forms: (0)
+wp_mailpoet_log: (0)
+wp_mailpoet_mapping_to_external_entities: (0)
+wp_mailpoet_newsletter_links: (0)
+wp_mailpoet_newsletter_option: (0)
+wp_mailpoet_newsletter_option_fields: (22)
+wp_mailpoet_newsletter_posts: (0)
+wp_mailpoet_newsletter_segment: (0)
+wp_mailpoet_newsletter_templates: (78)
+wp_mailpoet_newsletters: (0)
+wp_mailpoet_scheduled_task_subscribers: (0)
+wp_mailpoet_scheduled_tasks: (118)
+wp_mailpoet_segments: (3)
+wp_mailpoet_sending_queues: (0)
+wp_mailpoet_settings: (19)
+wp_mailpoet_statistics_bounces: (0)
+wp_mailpoet_statistics_clicks: (0)
+wp_mailpoet_statistics_forms: (0)
+wp_mailpoet_statistics_newsletters: (0)
+wp_mailpoet_statistics_opens: (0)
+wp_mailpoet_statistics_unsubscribes: (0)
+wp_mailpoet_statistics_woocommerce_purchases: (0)
+wp_mailpoet_stats_notifications: (0)
+wp_mailpoet_subscriber_custom_field: (0)
+wp_mailpoet_subscriber_ips: (0)
+wp_mailpoet_subscriber_segment: (26)
+wp_mailpoet_subscribers: (15)
+wp_mailpoet_user_agents: (0)
+wp_mailpoet_user_flags: (0)
+wp_options: (551)
+wp_postmeta: (4620)
+wp_posts: (651)
+wp_rm_fields: (13)
+wp_rm_forms: (2)
+wp_rm_front_users: (0)
+wp_rm_login: (10)
+wp_rm_login_log: (0)
+wp_rm_notes: (0)
+wp_rm_paypal_fields: (0)
+wp_rm_paypal_logs: (0)
+wp_rm_rules: (0)
+wp_rm_sent_mails: (0)
+wp_rm_sessions: (0)
+wp_rm_stats: (0)
+wp_rm_submission_fields: (0)
+wp_rm_submissions: (0)
+wp_rm_task_exe_log: (0)
+wp_rm_tasks: (0)
+wp_term_relationships: (93)
+wp_term_taxonomy: (39)
+wp_termmeta: (22)
+wp_terms: (39)
+wp_user_registration_sessions: (0)
+wp_usermeta: (433)
+wp_users: (15)
+wp_wc_admin_note_actions: (62)
+wp_wc_admin_notes: (55)
+wp_wc_category_lookup: (6)
+wp_wc_customer_lookup: (4)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (0)
+wp_wc_order_stats: (0)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_attributes_lookup: (0)
+wp_wc_product_meta_lookup: (27)
+wp_wc_rate_limits: (0)
+wp_wc_reserved_stock: (0)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_wdm_bidders: (0)
+wp_woo_ua_auction_log: (9)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (0)
+wp_woocommerce_order_items: (0)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_woof_query_cache: (0)
+wp_wpforms_tasks_meta: (21)
+wp_yoast_indexable: (194)
+wp_yoast_indexable_hierarchy: (48)
+wp_yoast_migrations: (23)
+wp_yoast_primary_term: (8)
+wp_yoast_seo_links: (139)
+Removed '95' cache/transient rows
+
+INSERT DATA RUNTIME: 4.5481 sec.
+STEP-2 COMPLETE @ 10:59:48 - RUNTIME: 4.5973 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+htaccess ark file don' exists
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 11:00:03
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Strings of Humanity"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/var/www/marathonLP2022/mdwLP2022_02/wordpress"
+path_new______________: "C:/xampp/htdocs/strings-of-humanity"
+siteurl_______________: "http://localhost/strings-of-humanity"
+url_old_______________: "https://web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress"
+url_new_______________: "http://localhost/strings-of-humanity"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    46][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   130][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_cmplz_cookiebanners"__________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_cmplz_cookies"________________________________[ROWS:   116][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_cmplz_services"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_events"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gla_budget_recommendations"___________________[ROWS:  4230][PG:   2][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_gla_merchant_issues"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gla_shipping_rates"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gla_shipping_times"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_custom_fields"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_dynamic_segment_filters"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_feature_flags"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_forms"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_log"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_mapping_to_external_entities"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_links"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_option"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_option_fields"____________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_posts"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_segment"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_templates"________________[ROWS:    78][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_mailpoet_newsletters"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_scheduled_task_subscribers"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_scheduled_tasks"_____________________[ROWS:   118][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_mailpoet_segments"____________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_mailpoet_sending_queues"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_settings"____________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_mailpoet_statistics_bounces"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_clicks"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_forms"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_newsletters"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_opens"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_unsubscribes"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_woocommerce_purchases"____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_stats_notifications"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_custom_field"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_ips"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_segment"__________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_mailpoet_subscribers"_________________________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_mailpoet_user_agents"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_user_flags"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   551][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  4620][PG:   2][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   651][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_rm_fields"____________________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_rm_forms"_____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_rm_front_users"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rm_login"_____________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_rm_login_log"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rm_notes"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rm_paypal_fields"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rm_paypal_logs"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rm_rules"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rm_sent_mails"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rm_sessions"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rm_stats"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rm_submission_fields"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rm_submissions"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rm_task_exe_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rm_tasks"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    93][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    39][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    39][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_user_registration_sessions"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   433][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    62][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    55][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_attributes_lookup"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:    27][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_wc_rate_limits"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wdm_bidders"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo_ua_auction_log"___________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woof_query_cache"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:    21][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_yoast_indexable"______________________________[ROWS:   194][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_yoast_indexable_hierarchy"____________________[ROWS:    48][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_yoast_migrations"_____________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_yoast_primary_term"___________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+
+EVALUATE TABLE: "wp_yoast_seo_links"______________________________[ROWS:   139][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/marathonLP2022/mdwLP2022_02/wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  2:"\/var\/www\/marathonLP2022\/mdwLP2022_02\/wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  3:"%2Fvar%2Fwww%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  4:"\var\www\marathonLP2022\mdwLP2022_02\wordpress" ==> "C:/xampp/htdocs/strings-of-humanity"
+	SEARCH  5:"\\var\\www\\marathonLP2022\\mdwLP2022_02\\wordpress" => "C:\/xampp\/htdocs\/strings-of-humanity"
+	SEARCH  6:"%5Cvar%5Cwww%5CmarathonLP2022%5CmdwLP2022_02%5Cwordpress" => "C%3A%2Fxampp%2Fhtdocs%2Fstrings-of-humanity"
+	SEARCH  7:"//web-mmi.iutbeziers.fr/marathonLP2022/mdwLP2022_02/wordpress" => "//localhost/strings-of-humanity"
+	SEARCH  8:"\/\/web-mmi.iutbeziers.fr\/marathonLP2022\/mdwLP2022_02\/wordpress" => "\/\/localhost\/strings-of-humanity"
+	SEARCH  9:"%2F%2Fweb-mmi.iutbeziers.fr%2FmarathonLP2022%2FmdwLP2022_02%2Fwordpress" => "%2F%2Flocalhost%2Fstrings-of-humanity"
+	SEARCH 10:"https://localhost/strings-of-humanity" ===========> "http://localhost/strings-of-humanity"
+	SEARCH 11:"https:\/\/localhost\/strings-of-humanity" ========> "http:\/\/localhost\/strings-of-humanity"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fstrings-of-humanity" ===> "http%3A%2F%2Flocalhost%2Fstrings-of-humanity"
+--------------------------------------
+SCANNED:	Tables:112 	|	 Rows:11900 	|	 Cells:80636 
+UPDATED:	Tables:11 	|	 Rows:1378 	|	 Cells:2057 
+ERRORS:		0 
+RUNTIME:	1.528600 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+[PHP ERR][WARN] MSG:file_get_contents(C:/xampp/htdocs/strings-of-humanity/dup-installer/dup-orig-htaccess__[HASH].txt): failed to open stream: No such file or directory [CODE:2|FILE:C:\xampp\htdocs\strings-of-humanity\dup-installer\classes\class.s3.func.php|LINE:1223]
+
+STEP-3 COMPLETE @ 11:00:05 - RUNTIME: 1.6639 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

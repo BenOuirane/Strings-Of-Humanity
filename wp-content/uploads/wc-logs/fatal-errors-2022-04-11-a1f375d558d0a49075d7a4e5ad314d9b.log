@@ -1,0 +1,14 @@
+2022-04-11T09:17:59+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 69632 bytes) dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/mailpoet/lib/AutomaticEmails/AutomaticEmails.php à la ligne 43
+
+2022-04-11T09:18:05+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-includes/wp-db.php à la ligne 1463
+
+2022-04-11T09:42:01+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 163840 bytes) dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-includes/plugin.php à la ligne 118
+
+2022-04-11T09:43:52+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 163840 bytes) dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-includes/plugin.php à la ligne 118
+
+2022-04-11T11:59:18+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/wpforms-lite/src/Tasks/Actions/EntryEmailsMetaCleanupTask.php à la ligne 1
+
+2022-04-11T12:50:10+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 163840 bytes) dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-includes/plugin.php à la ligne 118
+
+2022-04-11T13:05:11+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 73728 bytes) dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-includes/pomo/streams.php à la ligne 222
+

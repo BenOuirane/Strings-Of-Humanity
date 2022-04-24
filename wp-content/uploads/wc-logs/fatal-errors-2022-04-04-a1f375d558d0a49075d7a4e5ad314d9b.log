@@ -1,0 +1,2 @@
+2022-04-04T09:52:40+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/woocommerce/includes/admin/wc-admin-functions.php à la ligne 387
+

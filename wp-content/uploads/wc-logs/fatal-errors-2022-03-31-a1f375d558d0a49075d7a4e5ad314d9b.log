@@ -1,0 +1,197 @@
+2022-03-31T06:04:34+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:04:34+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:04:35+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:04:37+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:04:38+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:04:39+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:04:39+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:04:39+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:04:59+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:05:02+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:05:02+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:05:02+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:05:11+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:05:34+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:05:36+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:05:36+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:05:36+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:06:00+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:09:12+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:09:14+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:10:43+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:10:44+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:10:55+00:00 CRITICAL Uncaught Error: Call to undefined function Weglot\Client\HttpClient\curl_version() in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php:76
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php(68): Weglot\Client\HttpClient\CurlClient->initUserAgentInfo()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(131): Weglot\Client\HttpClient\CurlClient->__construct()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/Client.php(79): Weglot\Client\Client->setHttpClient()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src/services/class-parser-service-weglot.php(63): Weglot\Client\Client->__construct()
+#4 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/src dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/weglot/vendor/weglot/weglot-php/src/Client/HttpClient/CurlClient.php à la ligne 76
+
+2022-03-31T06:13:44+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/wordpress-seo/inc/class-post-type.php à la ligne 1
+
+2022-03-31T06:13:51+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 249856 bytes) dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-includes/wp-db.php à la ligne 1510
+
+2022-03-31T06:19:40+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 147456 bytes) dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-admin/admin-ajax.php à la ligne 39
+
+2022-03-31T06:22:09+00:00 CRITICAL Uncaught Exception: Google account is not connected. in /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/google-listings-and-ads/src/MerchantCenter/MerchantStatuses.php:172
+Stack trace:
+#0 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/google-listings-and-ads/src/MerchantCenter/MerchantStatuses.php(139): Automattic\WooCommerce\GoogleListingsAndAds\MerchantCenter\MerchantStatuses->maybe_refresh_status_data()
+#1 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/google-listings-and-ads/src/MerchantCenter/MerchantCenterService.php(358): Automattic\WooCommerce\GoogleListingsAndAds\MerchantCenter\MerchantStatuses->get_issues()
+#2 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/google-listings-and-ads/src/Tracking/TrackerSnapshot.php(98): Automattic\WooCommerce\GoogleListingsAndAds\MerchantCenter\MerchantCenterService->has_account_issues()
+#3 /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/google-listings-and-ads/src/Tracking/Tra dans /var/www/marathonLP2022/mdwLP2022_02/wordpress/wp-content/plugins/google-listings-and-ads/src/MerchantCenter/MerchantStatuses.php à la ligne 172
+
